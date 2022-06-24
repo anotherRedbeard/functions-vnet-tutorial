@@ -74,6 +74,6 @@ stages:
                 azureSubscription: $(SERVICE_CONNECTION)
                 appType: 'functionApp'
                 appName: $(FUNCTION_APP_NAME)
-                package: '$(System.ArtifactsDirectory)/app-src/*.zip'
+                package: '$(System.ArtifactsDirectory)/drop/*.zip'
                 deploymentMethod: 'zipDeploy'
                 slotName: 'Production'
