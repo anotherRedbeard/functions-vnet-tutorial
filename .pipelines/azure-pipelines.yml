@@ -28,7 +28,7 @@ stages:
     
     - script: |
         dotnet restore
-        dotnet build --configuration Release *.csproj
+        dotnet build --configuration Release vnet-tutorial.csproj
 
     - task: DotNetCoreCLI@2
       inputs:
