@@ -9,7 +9,9 @@ trigger:
       - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: MyWindowsAgenPool
+  demands:
+  - agent.name -equals windows-vm0
 
 variables:
   FUNCTION_APP_NAME: 'red-cus-privatefunction-fn'
