@@ -13,7 +13,7 @@ pool:
 
 variables:
   FUNCTION_APP_NAME: 'red-cus-privatefunction-fn'
-  SERVICE_CONNECTION: 'QuickStartTemplates-AzureServiceConnection'
+  SERVICE_CONNECTION: 'QuickStartTemplates-AzureServiceConnection-Private Functions Deploy'
 
 stages:
 - stage: Build
